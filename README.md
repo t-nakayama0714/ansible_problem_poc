@@ -4,9 +4,9 @@
 # 前提
 以下であることを前提としています。
 
-- rootユーザで作業可能
-	- Ansibleバージョンを都度切り替えるのため
-- `inventory/hosts` のホストへノンパスSSH可能な環境
+- Ansibleサーバにおいてrootユーザで作業可能
+	- Ansibleバージョンを都度切り替えるため
+- Ansibleサーバから `inventory/hosts` のノードへ `vagrant` ユーザでノンパスSSH可能
 
 # 準備
 
