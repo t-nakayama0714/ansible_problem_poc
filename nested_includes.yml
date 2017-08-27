@@ -1,0 +1,5 @@
+- hosts: ansible-nodes
+  become: true
+  user: vagrant
+  roles:
+    - nested_includes
